@@ -11,7 +11,7 @@ declare namespace PinoPretty {
   type Prettifier = (inputData: string | object) => string;
   type MessageFormatFunc = (log: LogDescriptor, messageKey: string, levelLabel: string) => string;
 
-  interface PrettyOptions {
+  export interface PrettyOptions {
     /**
      * Hide objects from output (but not error object).
      * @default false
